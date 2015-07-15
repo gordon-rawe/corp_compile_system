@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/main_button"
+        android:layout_width="@dimen/menu_main_radius"
+        android:layout_height="@dimen/menu_main_radius"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/menu_bottom"
+        android:layout_marginRight="@dimen/menu_right"
+        android:background="@drawable/menu_main_button" />
+
+    <RelativeLayout
+        android:id="@+id/one"
+        android:layout_width="@dimen/menu_item_width"
+        android:layout_height="@dimen/menu_item_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/menu_bottom1"
+        android:layout_marginRight="@dimen/menu_right"
+        android:scaleX="0"
+        android:scaleY="0">
+
+        <RelativeLayout
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:background="@drawable/dest_index_ret">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="写点评" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/dest_icon_dest_menu_hotel" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/two"
+        android:layout_width="@dimen/menu_item_width"
+        android:layout_height="@dimen/menu_item_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/menu_bottom2"
+        android:layout_marginRight="@dimen/menu_right"
+        android:scaleX="0"
+        android:scaleY="0">
+
+        <RelativeLayout
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:background="@drawable/dest_index_ret">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="写点评" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/dest_index_cmt" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/three"
+        android:layout_width="@dimen/menu_item_width"
+        android:layout_height="@dimen/menu_item_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/menu_bottom3"
+        android:layout_marginRight="@dimen/menu_right"
+        android:scaleX="0"
+        android:scaleY="0">
+
+        <RelativeLayout
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:background="@drawable/dest_index_ret">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="写点评" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/dest_icon_dest_menu_hotel" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/four"
+        android:layout_width="@dimen/menu_item_width"
+        android:layout_height="@dimen/menu_item_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/menu_bottom4"
+        android:layout_marginRight="@dimen/menu_right"
+        android:scaleX="0"
+        android:scaleY="0">
+
+        <RelativeLayout
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:background="@drawable/dest_index_ret">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="写点评" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/dest_index_cmt" />
+    </RelativeLayout>
+</RelativeLayout>
